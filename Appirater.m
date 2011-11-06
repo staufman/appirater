@@ -51,9 +51,7 @@ NSString *templateReviewURL = @"itms-apps://ax.itunes.apple.com/WebObjects/MZSto
 
 @interface Appirater (hidden)
 - (BOOL)connectedToNetwork;
-+ (Appirater*)sharedInstance;
 - (void)showRatingAlert;
-- (BOOL)ratingConditionsHaveBeenMet;
 - (void)incrementUseCount;
 @end
 
